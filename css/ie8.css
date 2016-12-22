@@ -1,0 +1,35 @@
+/* IE8 Stylesheet for Wedding Template - Created by www.designkindle.com */
+
+/* =Pages
+============================================================================== */
+
+/* Archives
+-------------------------------------------------------------------------- */
+
+/* pagination */
+
+#pagination a, #pagination a:visited {
+    padding: 0 0 0 5px;
+    height: 30px;
+    border-radius: 0;
+    background: url(../img/pagination-ie.gif) 0 0 no-repeat;
+}
+
+#pagination a strong {
+    padding: 0 10px 0 5px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background: url(../img/pagination-ie.gif) 100% 0 no-repeat;
+    display: block;
+    cursor: pointer;
+}
+
+#pagination a:hover { background-position: 0 -30px; }
+#pagination .selected a { background-position: 0 -60px !important; }
+
+#pagination a:hover strong { background-position: 100% -30px; }
+#pagination .selected strong { background-position: 100% -60px !important; }
