@@ -29,6 +29,10 @@
 	font-family: "Moon Flower";
 	src: url('MoonFlower.html');
 }
+@font-face {
+    font-family: "Sant Elia";
+    src: url('SantEliaScriptW00Line.ttf');
+}
 /* =Base
 ============================================================================== */
 
@@ -37,13 +41,12 @@
 
 body {
     min-width: 1068px;
-    font-family: "Moon Flower Bold","helvetica","arial",sans-serif!important;
+    font-family: "Moon Flower Bold",sans-serif!important;
     background: #f5f2e9 url(../img/main-bg.gif) top center repeat;
     color: #665e57;
 }
 
 p {
-    font-family: "Moon Flower Bold", sans-serif!important;
     background: #f5f2e9 url(../img/main-bg.gif) top center repeat;
     color: #665e57;
 }
@@ -63,14 +66,12 @@ p {
 }
 
 #temoins .right-1 {
-    font-family: "Moon Flower Bold","helvetica","arial",sans-serif!important;
     width: 600px;
     float: right;
     font-size: 27px;
 }
 
 #temoins .left-2 {
-    font-family: "Moon Flower Bold","helvetica","arial",sans-serif!important;
     width: 600px;
     font-size: 27px;
     float: left;
@@ -314,8 +315,8 @@ p {
 
 .btn {
   background: #fff7ee;
-  -webkit-border-radius: 15;
-  -moz-border-radius: 15;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
   border-radius: 15px;
   font-size: 15px;
   padding: 10px 20px 10px 20px;

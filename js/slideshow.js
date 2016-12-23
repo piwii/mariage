@@ -1,8 +1,3 @@
-/* Javascript for Wedding Template - Created by www.designkindle.com */
-
-/* =jQuery
-============================================================================== */
-	
 $(document).ready(function() {
 		
 	/* Slideshow
