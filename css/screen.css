@@ -29,6 +29,14 @@
 	font-family: "Moon Flower";
 	src: url('MoonFlower.html');
 }
+@font-face {
+    font-family: "Sant Elia";
+    src: url('SantEliaScriptAltLight.otf');
+}
+@font-face {
+    font-family: "Milton One";
+    src: url('Milton_One.otf');
+}
 
 /* =Base
 ============================================================================== */
@@ -38,7 +46,7 @@
 
 body {
     min-width: 1068px;
-    font-family: "Moon Flower Bold",sans-serif!important;
+    font-family: "Sant Elia",sans-serif!important;
     background: #f5f2e9 url(../img/main-bg.gif) top center repeat;
     color: #665e57;
 }
@@ -133,7 +141,8 @@ p {
 
 #nav a, #nav a:visited, #nav strong {
     color: #7f7367;
-    font-size: 30px;
+    font-size: 22px;
+    font-weight: bold;
     text-decoration: none;
     letter-spacing: 2px;
 }
@@ -193,7 +202,7 @@ p {
     width: 930px;
     position: relative;
     bottom: 50px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /* Home
@@ -334,7 +343,6 @@ td {
 
 p, ul, ol, dl, pre {
     margin-bottom: 15px;
-    font-size: 27px;
 }
 
 h1, h2, h3, h4 {
@@ -387,9 +395,11 @@ blockquote {
 .mainTitle {
     text-align: center;
     background: url(../img/main-title2.gif) center center no-repeat;
+    font-size: 55px;
 }
 
 .mainTitle strong {
+    font-family: "Milton One",sans-serif!important;
     padding: 10px;
     font-weight: normal;
     background: #fff;
