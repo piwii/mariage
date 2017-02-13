@@ -108,20 +108,14 @@ p {
     position: relative;
 }
 
-/* Logo
--------------------------------------------------------------------------- */
-
-#logo {
-    width: 670px;
-    height: 288px;
-    background: url(../img/logo.png) top left no-repeat;
-    display: block;
-    text-indent: -9999px;
-    overflow: hidden;
-    position: absolute;
-    top: 20px;
-    left: 155px;
+#footer {
+    background: url(../img/footer.png) top center no-repeat;
+    margin: 65px auto;
+    width: 1250px;
+    height: 200px;
+    position: relative;
 }
+
 
 /* Main Nav
 -------------------------------------------------------------------------- */
@@ -132,7 +126,7 @@ p {
     height: 53px;
     position: absolute;
     bottom: 0;
-    left: 80px;
+    left: 60px;
 }
 
 #nav li {
@@ -197,6 +191,23 @@ p {
     top: 66px;
 }
 
+#pageBtm .right {
+    float: right;
+    width: 730px;
+}
+
+#pageBtm .left {
+    float: left;
+    width: 200px;
+}
+
+#pageBtm .left img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+}
+
 /* Main Content
 -------------------------------------------------------------------------- */
 
@@ -229,7 +240,7 @@ p {
 /* schedule */
 
 #schedule {
-    padding: 0 150px 0 150px;
+    padding: 0 50px;
 }
 
 #schedule li {
@@ -245,7 +256,6 @@ p {
     color: #dededd;
     text-align: right;
     float: left;
-    position: relative;
     bottom: 12px;
 }
 
