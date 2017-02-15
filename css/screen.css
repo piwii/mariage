@@ -37,6 +37,10 @@
     font-family: "Milton One";
     src: url('Milton_One.otf');
 }
+@font-face {
+    font-family: "Milton One Bold";
+    src: url('Milton_One_Bold.otf');
+}
 
 /* =Base
 ============================================================================== */
@@ -47,6 +51,7 @@
 body {
     min-width: 1068px;
     font-family: "Sant Elia",sans-serif!important;
+    line-height: 25pt;
     background: #f5f2e9 url(../img/main-bg.gif) top center repeat;
     color: #665e57;
 }
@@ -193,10 +198,18 @@ p {
 
 #pageBtm .right {
     float: right;
-    width: 730px;
 }
 
 #pageBtm .left {
+    float: left;
+}
+
+.program .right {
+    float: right;
+    width: 730px;
+}
+
+.program .left {
     float: left;
     width: 200px;
 }
@@ -253,7 +266,7 @@ p {
     width: 140px;
     font-size: 30px;
     line-height: 30px;
-    color: #dededd;
+    color: #C0C0C0;
     text-align: right;
     float: left;
     bottom: 12px;
@@ -408,15 +421,14 @@ blockquote {
 .mainTitle {
     text-align: center;
     background: url(../img/main-title2.gif) center center no-repeat;
-    font-size: 55px;
+    font-size: 90px;
 }
 
 .mainTitle strong {
-    font-family: "Milton One",sans-serif!important;
+    font-family: "Milton One Bold",sans-serif!important;
     padding: 10px;
     font-weight: normal;
     background: #fff;
-    font-size: 150%;
 }
 
 /* centered text */
