@@ -9,6 +9,7 @@ $(document).ready(function() {
     $('#ContactMessage').change(changeContactHref);
     $('#ContactSend').click(function (e) {
         if ($('#ContactMessage').val() == '') {
+            alert('Pourriez vous nous envoyer au moins une lettre s il vous plait :-)');
             e.stopPropagation();
             e.preventDefault();
         }
