@@ -476,3 +476,22 @@ div#justify {
 div.content img.picture {
     width: 900px;
 }
+
+/* Tableau
+-------------------------------------------------------------------------- */
+.TabTaches {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #758de5;
+}
+.TabTaches th, .TabTaches td {
+    border: 3px solid #F5DA81;
+    padding: 3px;
+    font-size: 18px;
+}
+.TabTaches th{
+    background: #DBA901;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
