@@ -474,9 +474,12 @@ div#justify {
 /* Photo
 -------------------------------------------------------------------------- */
 div.content img.picture {
-    width: 900px;
+     width: 900px;
+ }
+div.content img.pictureBooth {
+    width: 400px;
+    border: 1px dashed;;
 }
-
 /* Tableau
 -------------------------------------------------------------------------- */
 .TabTaches {
